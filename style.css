@@ -19,33 +19,66 @@ align-items: center;
     justify-content: space-between;
     color: #cdc9cc;  
 }
-.box2:hover{
+.box2 li:hover{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
-}.main1{
-    width: 100%;
-    position: absolute;
-    top: 70px;
-    
+.main1{
+    background-image: url(laranja.png.png);
+    height:70vh;
 }
-.main2{
-    width:50%;
-    position:absolute;
-    top:400px;
-    margin-left: 50px;
+@media(max-width:760px){
+    .main1{
+        height: 84vh;
+        background-size: cover;
+        background-position: 85% 0%;
+        justify-content: flex-end;
+
+    }
 }
-.main3{
-    width:50%;
-    position: absolute;
-    top: 500px;
-    margin-left: 50px;
+.bloco1{
+    margin-left:10rem;
+     position: absolute;
+     color: aliceblue;
+     font-size:2vw;
+     width:30vw;
+     margin-top: 15rem;
 }
-.photo{
-    display: flex;
-    flex:center;
+section{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-left: 7vw;
+    margin-right:auto ;
+    margin-bottom: 3.5vw;
+    width: 90vw;   
 }
+section img{
+    width: 20.7vw;
+    margin-left: 0.40rem;
+    margin-bottom: 0.40rem;
+    margin-top: 30px;
+}
+@media(max-width:769px){
+    section{
+        width: 80vw;
+        flex-direction:column ;
+        margin-top: 19vw;
+    }
+    section img{
+        width: 100%;
+        margin-bottom: 9vw;
+    }
+    .bloco1{
+     font-size:10vw;
+    }
+}
+footer{
+    width:100px ;
+}
+
+
 
    
 
